@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta title="Tema" content="Boxeo">
+    <title>
+      Deportes
+    </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <header>
+    <div class="bar-flex">
+      <div class="bar-log">
+        <a href="/"><h1>Verdena</h1></a>
+      </div>
+    </div>
+      <div class="enlaces">
+        <a href="/boxeo/entrenamiento">Entrenamiento</a>
+        <a href="/boxeo/tecnica">Tecnica</a>
+        <a href="/boxeo/comparativas">Comparativas</a>
+        <a href="/boxeo/analisis">Analisis</a>
+      </div>
+    </header>
+    <div class="grande">
+      <a href="{{ cat }}/{{ subc }}/{{ nom }}"><h1 class="tit">{{ nom }}</h1></a>
+      <img class="img-grande" src="{{ img }}" alt="">
+    </div>
+    <div class="linea">
+    </div>
+    <h1 class="rec">Reciente</h1>
+      <div class="tres-conjunto">
+        {% for i in boxeop[:3] %}
+        <div class="bar-new">
+          <div class="bar-new-img">
+            <img src="{{ data[i[0]]['imagen'] }}" alt="">
+          </div>
+          <div class="bar-new-text">
+            <a href="\{{ data[i[0]]['categoria'] }}\{{ data[i[0]]['subcat'] }}\{{ data[i[0]]['title'] }}"><h3>{{ data[i[0]]['title'] }}</h3></a>
+          </div>
+        </div>
+        <br><br>
+      {% endfor %}
+      </div>
+    <div class="linea">
+    </div>
+    <h1 class="rec">Entrenamiento</h1>
+    {% for i in entrep[:3] %}
+      <div class="bar-new">
+        <div class="bar-new-img">
+          <img src="{{ data[i[0]]['imagen'] }}" alt="">
+        </div>
+        <div class="bar-new-text">
+          <a href="\{{ data[i[0]]['categoria'] }}\entrenamiento\{{ data[i[0]]['title'] }}"><h3>{{ data[i[0]]['title'] }}</h3></a>
+        </div>
+      </div>
+      <br><br>
+    {% endfor %}
+    <div class="linea">
+    </div>
+    <h1 class="rec">Tecnica</h1>
+    {% for i in tecp[:3] %}
+      <div class="bar-new">
+        <div class="bar-new-img">
+          <img src="{{ data[i[0]]['imagen'] }}" alt="">
+        </div>
+        <div class="bar-new-text">
+          <a href="\{{ data[i[0]]['categoria'] }}\tecnica\{{ data[i[0]]['title'] }}"><h3>{{ data[i[0]]['title'] }}</h3></a>
+        </div>
+      </div>
+      <br><br>
+    {% endfor %}
+    <div class="linea">
+    </div>
+    <h1 class="rec">Comparativas</h1>
+    {% for i in comp[:3] %}
+      <div class="bar-new">
+        <div class="bar-new-img">
+          <img src="{{ data[i[0]]['imagen'] }}" alt="">
+        </div>
+        <div class="bar-new-text">
+          <a href="\{{ data[i[0]]['categoria'] }}\comparativas\{{ data[i[0]]['title'] }}"><h3>{{ data[i[0]]['title'] }}</h3></a>
+        </div>
+      </div>
+      <br><br>
+    {% endfor %}
+    <div class="linea">
+    </div>
+    <h1 class="rec">Analisis</h1>
+    {% for i in anap[:3] %}
+      <div class="bar-new">
+        <div class="bar-new-img">
+          <img src="{{ data[i[0]]['imagen'] }}" alt="">
+        </div>
+        <div class="bar-new-text">
+          <a href="\{{ data[i[0]]['categoria'] }}\analisis\{{ data[i[0]]['title'] }}"><h3>{{ data[i[0]]['title'] }}</h3></a>
+        </div>
+      </div>
+      <br><br>
+    {% endfor %}
+  </body>
+</html>

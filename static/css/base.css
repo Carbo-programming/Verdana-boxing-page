@@ -1,0 +1,41 @@
+:root {
+  --color-fondo: white;
+  --color-texto: black;
+  --color-navbar: rgba(255, 255, 255, 0.8);
+  --color-borde: #ddd;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bar-flex{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: red;
+  position: fixed;
+  top: 0;
+}
+
+.bar-log h1{
+  color: white;
+}
+.bar-log a{
+  text-decoration: none;
+}
+.cuerpo{
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.content{
+  width: 80%;
+}
+
+@media (min-width: 900px) {
+  .content { width: 800px; }
+}
+

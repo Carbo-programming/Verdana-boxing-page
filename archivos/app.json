@@ -1,0 +1,89 @@
+{
+        "Resultados tras entrenar 3,6,12 meses":{
+        "title": "Resultados tras entrenar 3 meses, 6 meses, 1 año",
+        "subtexto": "texto",
+        "text": "art-02.md",
+        "fecha": "6/3/2026",
+        "numero": 1,
+        "imagen": "/static/img/img2.jpg",
+        "categoria": "boxeo",
+        "subcat": "entrenamiento",
+        "catnum": 1
+    },
+        "Cuantos dias entrenar a la semana boxeo si eres principiante":{
+        "title": "Cuantos dias entrenar a la semana boxeo si eres principiante",
+        "subtexto": "texto",
+        "text": "art-01.md",
+        "fecha": "28/10/2025",
+        "numero": 2,
+        "imagen": "/static/img/img1.jpg",
+        "categoria": "boxeo",
+        "subcat": "entrenamiento",
+        "catnum": 2
+    },
+        "razones abandono":{
+        "title": "Razones por las que la gente deja el boxeo",
+        "subtexto": "texto",
+        "text": "art-03.md",
+        "fecha": "28/10/2025",
+        "numero": 3,
+        "imagen": "/static/img/img3.jpg",
+        "categoria": "boxeo",
+        "subcat": "analisis",
+        "catnum": 1
+    },
+        "errores estancamiento":{
+        "title": "Errores que te hacen estancarte en boxeo (aunque entrenes mucho)",
+        "subtexto": "texto",
+        "text": "art-04.md",
+        "numero": 4,
+        "imagen": "/static/img/img4.jpg",
+        "categoria": "boxeo",
+        "subcat": "analisis",
+        "catnum": 2
+    },
+        "errores mentales sparring":{
+        "title": "Errores mentales en el sparring que te frenan",
+        "subtexto": "texto",
+        "text": "art-05.md",
+        "fecha": "28/10/2025",
+        "numero": 5,
+        "imagen": "/static/img/img5.jpg",
+        "categoria": "boxeo",
+        "subcat": "analisis",
+        "catnum": 3
+    },
+        "uso jab correcto":{
+        "title": "Como usar el jab correctamente en boxeo",
+        "subtexto": "texto",
+        "text": "art-06.md",
+        "fecha": "28/10/2025",
+        "numero": 6,
+        "imagen": "/static/img/img6.jpg",
+        "categoria": "boxeo",
+        "subcat": "tecnica",
+        "catnum": 1
+    },
+        "impredecible":{
+        "title": "Como ser impredecible en boxeo",
+        "subtexto": "texto",
+        "text": "art-07.md",
+        "fecha": "28/10/2025",
+        "numero": 7,
+        "imagen": "/static/img/img7.jpg",
+        "categoria": "boxeo",
+        "subcat": "tecnica",
+        "catnum": 2
+    },
+    "dfgdg":{
+        "title": "Cdfgdfgdfg",
+        "subtexto": "texto",
+        "text": "art-07.md",
+        "fecha": "28/10/2025",
+        "numero": 8,
+        "imagen": "https://i.ytimg.com/vi/4deUxsQOGps/maxresdefault.jpg",
+        "categoria": "boxeo",
+        "subcat": "comparativas",
+        "catnum": 2
+    }
+}

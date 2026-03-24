@@ -1,6 +1,7 @@
 {
         "Resultados tras entrenar 3,6,12 meses":{
         "title": "Resultados tras entrenar 3 meses, 6 meses, 1 año",
+        "alink": "resultados-3-6-12-meses",
         "subtexto": "texto",
         "text": "art-02.md",
         "fecha": "6/3/2026",
@@ -12,6 +13,7 @@
     },
         "Cuantos dias entrenar a la semana boxeo si eres principiante":{
         "title": "Cuantos dias entrenar a la semana boxeo si eres principiante",
+        "alink": "cuantos-dias-entrenar-a-la-semana-boxeo-si-eres-principiante",
         "subtexto": "texto",
         "text": "art-01.md",
         "fecha": "28/10/2025",
@@ -23,6 +25,7 @@
     },
         "razones abandono":{
         "title": "Razones por las que la gente deja el boxeo",
+        "alink": "razones-por-las-que-la-gente-deja-el-boxeo",
         "subtexto": "texto",
         "text": "art-03.md",
         "fecha": "28/10/2025",
@@ -34,6 +37,7 @@
     },
         "errores estancamiento":{
         "title": "Errores que te hacen estancarte en boxeo (aunque entrenes mucho)",
+        "alink": "errores-que-te-hacen-estancarte-en-boxeo-aunque-entrenes-mucho",
         "subtexto": "texto",
         "text": "art-04.md",
         "numero": 4,
@@ -44,6 +48,7 @@
     },
         "errores mentales sparring":{
         "title": "Errores mentales en el sparring que te frenan",
+        "alink": "errores-mentales-en-el-sparring-que-te-frenan",
         "subtexto": "texto",
         "text": "art-05.md",
         "fecha": "28/10/2025",
@@ -55,6 +60,7 @@
     },
         "uso jab correcto":{
         "title": "Como usar el jab correctamente en boxeo",
+        "alink": "como-usar-el-jab-correctamente-en-boxeo",
         "subtexto": "texto",
         "text": "art-06.md",
         "fecha": "28/10/2025",
@@ -66,6 +72,7 @@
     },
         "impredecible":{
         "title": "Como ser impredecible en boxeo",
+        "alink": "como-ser-impredecible-en-boxeo",
         "subtexto": "texto",
         "text": "art-07.md",
         "fecha": "28/10/2025",
@@ -77,6 +84,7 @@
     },
     "dfgdg":{
         "title": "Cdfgdfgdfg",
+        "alink": "asdasasd",
         "subtexto": "texto",
         "text": "art-07.md",
         "fecha": "28/10/2025",

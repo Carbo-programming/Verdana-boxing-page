@@ -5,8 +5,11 @@ import markdown
 
 app=Flask(__name__)
 
+base_dir = os.path.dirname(__file__)
+ruta_json = os.path.join(base_dir, "archivos", "app.json")
+
 def cargar_datos():
-    with open('app/archivos/app.json','r', encoding='utf-8') as i:
+    with open(ruta_json, 'r', encoding='utf-8') as i:
         data = json.load(i)
     return data
 
@@ -52,32 +55,61 @@ data = cargar_datos()
 
 #Pagina comun de informacion
 data = cargar_datos()
-def crear_vista(dato,contenido,html):
+
+def crear_vista(dato, html):
     def vista():
-        return render_template(html,dato=dato,contenido=contenido)
+        base_dir = os.path.dirname(__file__)
+        ruta_md = os.path.join(base_dir, "archivos", "articulos", dato["text"])
+
+        with open(ruta_md, "r", encoding="utf-8") as t:
+            contenido_md = t.read()
+
+        contenido = markdown.markdown(contenido_md)
+
+        return render_template(html, dato=dato, contenido=contenido)
+
     return vista
 
 for i in data.keys():
-    ruta_md = os.path.join('app','archivos','articulos',data[i]['text'])
-    with open(ruta_md,'r',encoding='utf-8') as t:
-        contenido_md = t.read()
-    contenido = markdown.markdown(contenido_md)
     dato = data[i]
-    app.add_url_rule(f'/{dato['categoria']}/{dato['subcat']}/{dato['title']}', dato['title'], crear_vista(dato,contenido,'base.html'))
+    app.add_url_rule(
+        f"/{dato['categoria']}/{dato['subcat']}/{dato['alink']}",
+        dato['title'],
+        crear_vista(dato, "base.html")
+    )
 
 #Pagina de subcategoria
-lista_sub = [('boxeo','analisis',anap),('boxeo','entrenamiento',entrep),('boxeo','tecnica',tecp),('boxeo','comparativas',comp)]
-for i in lista_sub:
-    data = cargar_datos()
-    sub = i[0]
-    cat = i[1]
-    app.add_url_rule(f'/{sub}/{cat}',f'{sub}_{cat}',crear_vista(data,i[2],'subcat.html'))
+def crear_vista_sub(sub, cat, lista):
+    def vista():
+        data = cargar_datos()
+        return render_template(
+            "subcat.html",
+            dato=data,
+            contenido=lista,
+            sub=sub,
+            cat=cat
+        )
+    return vista
+
+lista_sub = [
+    ('boxeo','analisis',anap),
+    ('boxeo','entrenamiento',entrep),
+    ('boxeo','tecnica',tecp),
+    ('boxeo','comparativas',comp)
+]
+
+for sub, cat, lista in lista_sub:
+    app.add_url_rule(
+        f"/{sub}/{cat}",
+        f"{sub}_{cat}",
+        crear_vista_sub(sub, cat, lista)
+    )
 
 #Error 404
 def pagina_no_encontrada(error):
     return redirect(url_for('index'))
 
 #Correr la pagina
+app.register_error_handler(404,pagina_no_encontrada)
 if __name__ =='__main__':
-    app.register_error_handler(404,pagina_no_encontrada)
     app.run(debug=True) 

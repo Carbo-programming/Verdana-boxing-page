@@ -16,7 +16,7 @@
     
     <h1 class="rec">{{ dato[contenido[0][0]]['subcat'].capitalize() }}</h1>
     <div class="grande">
-      <a href="/{{ dato[contenido[0][0]]['categoria'] }}/{{ dato[contenido[0][0]]['subcat'] }}/{{ dato[contenido[0][0]]['title'] }}"><h1 class="tit">{{ dato[contenido[0][0]]['title'] }}</h1></a>
+      <a href="/{{ dato[contenido[0][0]]['categoria'] }}/{{ dato[contenido[0][0]]['subcat'] }}/{{ dato[contenido[0][0]]['alink'] }}"><h1 class="tit">{{ dato[contenido[0][0]]['title'] }}</h1></a>
       <img class="img-grande" src="{{ dato[contenido[0][0]]['imagen'] }}" alt="">
     </div>
     {% for i in contenido %}
@@ -26,7 +26,7 @@
         <img src="{{ dato[i[0]]['imagen'] }}" alt="">
       </div>
       <div class="bar-new-text">
-        <a href="/{{ dato[i[0]]['categoria'] }}/{{ dato[i[0]]['subcat'] }}/{{ dato[i[0]]['title'] }}"><h3>{{ dato[i[0]]['title'] }}</h3></a>
+        <a href="/{{ dato[i[0]]['categoria'] }}/{{ dato[i[0]]['subcat'] }}/{{ dato[i[0]]['alink'] }}"><h3>{{ dato[i[0]]['title'] }}</h3></a>
       </div>
     </div>
     <br><br>

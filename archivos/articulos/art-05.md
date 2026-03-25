@@ -7,10 +7,14 @@ Puedes tener uno de estos hábitos que frenan tu desarrollo en boxeo y no por f�
 Tenerle miedo a los golpes se manifiesta en cerrar los ojos cada vez que te pegan, girar la cara a un lado y echarte lo más atrás posible. Y todo eso solo por unos golpes.
 Cuando tienes miedo a los golpes peleas en tensión, generando que tu movimiento sea más robótico o que te bloquees, no tires golpes y solo trates de irte para atrás a la mínima presión sin seguir un plan.
 ¿Cómo dejo de tenerle miedo a los golpes?
-    1. Ir con un plan: pego y me muevo a un lado.
-    2. Familiarizarte con los golpes y mejorar la guardia: entrenamiento conjunto, uno pega 3 manos y el otro recibe y vuelve a pegar con 3.
-    3. Ir haciendo más sparring: te acostumbrará a los golpes.
+
+1. Ir con un plan: pego y me muevo a un lado.
+2. Familiarizarte con los golpes y mejorar la guardia: entrenamiento conjunto, uno pega 3 manos y el otro recibe y vuelve a pegar con 3.
+3. Ir haciendo más sparring: te acostumbrará a los golpes.
+
 El miedo no desaparece evitando golpes, sino que lo hace cuando aprendes a convivir con ellos.
+
+![Imagen descriptiva](../../static/img/img5.jpg)
 
 ## Bloquearte después de que te den un golpe limpio
 

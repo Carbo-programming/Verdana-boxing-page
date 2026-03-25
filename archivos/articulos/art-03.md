@@ -10,6 +10,8 @@ Si repites siempre la misma entrada en boxeo, serás muy predecible. Tu rival sa
 
 Parece una tontería pero hay mucha gente que contragolpea mal. Se acostumbran a tirar un golpe en concreto luego de contragolpear, y lo tiran sin pensar. Si te pasa esto y tu rival es bueno aprovechará esto para después de cada combinación que el da esquivarte tu golpe por defecto y seguir pegándote, lo que saldrá mal para ti. Cambia el golpe con el que le das después  de cada contra, con golpear con tres golpes diferentes ya te hará impredecible. También, no siempre contragolpear, irte a un lado por ejemplo o irte atrás.
 
+![Imagen descriptiva](../../static/img/img3.jpg)
+
 ## Variar el ritmo
 
 Si tiras todos los golpes al mismo ritmo es fácil de leer los tiempos para el rival, y sabrá cuando viene exactamente el siguiente golpe. Lo mejor es alternar el ritmo, tiras rápido un 1 2 y luego lento pero fuerte le tiras un hook derecha. Puedes también hacer jab una pequeña pausa y la combinación, o doble jab rápido al empezar.

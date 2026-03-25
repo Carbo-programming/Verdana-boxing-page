@@ -17,6 +17,8 @@ Mejorarás mucho con respecto al inicio. Sabes hacer movimientos que coordinará
 
 La mejoría rápida hará que te motive y te obsesiones con el boxeo. Sin embargo, un error que cometen muchos principiantes es compararse, y esto suele ser malo. Primero porque puedes subir el ego y segundo porque te cuestionarás constantemente si eres malo, porque hay gente mejor a ti que lleva lo mismo que tú. No te frustres, más no te compares, porque si lo haces aún así seguirás frustrándote. Compárate con tu yo pasado sin obsesionarte y sin comparaciones con los demás.
 
+![Imagen descriptiva](../../static/img/img2.jpg)
+
 ## Resultados tras 6 meses entrenando boxeo
 
 ### Físicamente tras 6 meses

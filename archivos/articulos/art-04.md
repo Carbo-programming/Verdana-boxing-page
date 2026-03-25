@@ -8,6 +8,8 @@ El ego te domina debido a la comparación constante y a la creencia de que el se
 
 Además de que hace que te estanques, hace que pierdas la motivación si hay alguien mejor a ti. La manera de solucionarlo es no compararte y reconocer que el boxeo no te da valor por lo que no te hace mejor o peor a nadie, si alguien es mejor a mi bien y si es peor pues bien también.
 
+![Imagen descriptiva](../../static/img/img4.jpg)
+
 ## Expectativas demasiado altas
 
 Puede que realmente si avances pero el problema es que esperas avanzar muy rápido, ni roma se construyó en un día. En el boxeo al principio avanzas mucho pero luego avanzas mas lento.

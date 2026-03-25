@@ -35,6 +35,10 @@ body{
   width: 80%;
 }
 
+@media (max-width: 500px) {
+  .cuerpo { font-size: 1.6em;}
+}
+
 @media (min-width: 900px) {
   .content { width: 800px; }
 }

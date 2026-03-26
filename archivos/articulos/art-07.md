@@ -8,6 +8,8 @@ Si lo hay, y eso no es nada mas que porque al final el boxeo es un deporte que r
 
 Como no perder la disciplina? Para no perder la disciplina es muy importante no saltarte días por vagueza porque al final si haces eso irás mal acostumbrando al cerebro a repetir la falta. Hay personas que no tienen disciplina simplemente por un mal horario, para arreglar esto siempre trata de ir a la misma hora los mismo días todas las semanas así mantendrás una rutina mas fácil de mantener.
 
+![Imagen descriptiva](../../static/img/img6.jpg)
+
 ## Por que no mejoro en boxeo aun entrenando mucho
 
 Muchas de las veces en las que pasa esto no es más que por las expectativas altas. Hay veces que tienes tantas expectativas que ni siquiera ves la mejora en ti. También se puede producir por falta de entrenamiento, o simplemente que no entrenas con intensidad. Es necesario en la mayoría de veces bajar las expectativas y ponerlas acordes a lo que realmente puedes mejorar, y meterle más intensidad a los entrenamientos.

@@ -41,7 +41,8 @@ body{
 }
 
 @media (max-width: 500px) {
-  .cuerpo { font-size: 1.6em;}
+  .cuerpo { font-size: 1.4em;}
+  .content { width: 100%;}
 }
 
 @media (min-width: 900px) {

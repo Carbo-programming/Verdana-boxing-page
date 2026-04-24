@@ -18,7 +18,7 @@ Metes jab para medir distancia y si es larga distancia le metes seguido recto co
 Si baja la mano después de tirarle el jab puedes amagarle el jab y tirar un hook para darle limpiamente. Si ves que después de tirárselo se va un poco hacia atrás puedes ganarle espacio con este movimiento.
 Hay muchas aplicaciones a este movimiento y entre algunas de ellas estas son las más importantes.
 
-![Imagen descriptiva](../../static/img/img6.jpg)
+![Imagen descriptiva](../../static/img/img7.jpg)
 
 ## Errores al usar el jab
 

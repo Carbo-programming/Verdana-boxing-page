@@ -17,7 +17,7 @@
         "subtexto": "texto",
         "text": "art-01.md",
         "fecha": "28/10/2025",
-        "numero": 2,
+        "numero": 8,
         "imagen": "/static/img/img1.jpg",
         "categoria": "boxeo",
         "subcat": "entrenamiento",
@@ -83,15 +83,15 @@
         "catnum": 2
     },
     "dfgdg":{
-        "title": "Cdfgdfgdfg",
-        "alink": "asdasasd",
+        "title": "Sin articulos",
+        "alink": "blanco",
         "subtexto": "texto",
-        "text": "art-07.md",
+        "text": "blanco.md",
         "fecha": "28/10/2025",
-        "numero": 8,
-        "imagen": "https://i.ytimg.com/vi/4deUxsQOGps/maxresdefault.jpg",
+        "numero": 2,
+        "imagen": "/static/img/blanco.jpg",
         "categoria": "boxeo",
-        "subcat": "comparativas",
-        "catnum": 2
+        "subcat": "material",
+        "catnum": 1
     }
 }

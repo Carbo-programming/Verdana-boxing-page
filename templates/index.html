@@ -4,7 +4,7 @@
   <head>
     <meta title="Tema" content="Boxeo">
     <title>
-      Deportes
+      VerdanaBoxeo
     </title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
   </head>
@@ -18,7 +18,7 @@
       <div class="enlaces">
         <a href="/boxeo/entrenamiento">Entrenamiento</a>
         <a href="/boxeo/tecnica">Tecnica</a>
-        <a href="/boxeo/comparativas">Comparativas</a>
+        <a href="/boxeo/material">Material</a>
         <a href="/boxeo/analisis">Analisis</a>
       </div>
     </header>
@@ -72,14 +72,14 @@
     {% endfor %}
     <div class="linea">
     </div>
-    <h1 class="rec">Comparativas</h1>
-    {% for i in comp[:3] %}
+    <h1 class="rec">Material</h1>
+    {% for i in matp[:3] %}
       <div class="bar-new">
         <div class="bar-new-img">
           <img src="{{ data[i[0]]['imagen'] }}" alt="">
         </div>
         <div class="bar-new-text">
-          <a href="\{{ data[i[0]]['categoria'] }}\comparativas\{{ data[i[0]]['alink'] }}"><h3>{{ data[i[0]]['title'] }}</h3></a>
+          <a href="\{{ data[i[0]]['categoria'] }}\material\{{ data[i[0]]['alink'] }}"><h3>{{ data[i[0]]['title'] }}</h3></a>
         </div>
       </div>
       <br><br>

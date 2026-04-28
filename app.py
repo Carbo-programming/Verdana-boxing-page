@@ -28,9 +28,9 @@ entrep = sorted(entre, key=lambda x: x[1], reverse=True)
 #subcat tecnica
 tec = [(key,i['catnum']) for key, i in data.items() if i['subcat'] == 'tecnica'] 
 tecp = sorted(tec, key=lambda x: x[1], reverse=True)
-#subcat comparativas
-com = [(key,i['catnum']) for key, i in data.items() if i['subcat'] == 'comparativas'] 
-comp = sorted(com, key=lambda x: x[1], reverse=True)
+#subcat material
+mat = [(key,i['catnum']) for key, i in data.items() if i['subcat'] == 'material'] 
+matp = sorted(mat, key=lambda x: x[1], reverse=True)
 #subcat analisis
 ana = [(key,i['catnum']) for key, i in data.items() if i['subcat'] == 'analisis'] 
 anap = sorted(ana, key=lambda x: x[1], reverse=True)
@@ -48,7 +48,7 @@ def index():
     cat=max_item['categoria']
     subc=max_item['subcat']
     print(max_item)
-    return render_template('index.html',boxeop=boxeop,cat=cat,data=data,nom=nom,img=img,sub=sub,subc=subc,num=num,anap=anap,tecp=tecp,comp=comp,entrep=entrep)
+    return render_template('index.html',boxeop=boxeop,cat=cat,data=data,nom=nom,img=img,sub=sub,subc=subc,num=num,anap=anap,tecp=tecp,matp=matp,entrep=entrep)
 
 #Pagina Deportes
 data = cargar_datos()
@@ -95,7 +95,7 @@ lista_sub = [
     ('boxeo','analisis',anap),
     ('boxeo','entrenamiento',entrep),
     ('boxeo','tecnica',tecp),
-    ('boxeo','comparativas',comp)
+    ('boxeo','material',matp)
 ]
 
 for sub, cat, lista in lista_sub:

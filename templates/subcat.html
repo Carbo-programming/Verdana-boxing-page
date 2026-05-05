@@ -13,6 +13,10 @@
      gtag('config', 'G-WPKQ9X6B2F');
     </script>
 
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='ico/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='ico/favicon-16x16.png') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='ico/favicon.ico') }}">
+    
     <title>{{ dato[contenido[0][0]]['subcat'].capitalize() }}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/subcat.css') }}">
   </head>

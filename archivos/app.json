@@ -81,17 +81,5 @@
         "categoria": "boxeo",
         "subcat": "tecnica",
         "catnum": 2
-    },
-    "dfgdg":{
-        "title": "Sin articulos",
-        "alink": "blanco",
-        "subtexto": "texto",
-        "text": "blanco.md",
-        "fecha": "28/10/2025",
-        "numero": 2,
-        "imagen": "/static/img/blanco.jpg",
-        "categoria": "boxeo",
-        "subcat": "material",
-        "catnum": 1
     }
 }

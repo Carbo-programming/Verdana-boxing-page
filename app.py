@@ -47,8 +47,9 @@ def index():
     num=max_item['numero']
     cat=max_item['categoria']
     subc=max_item['subcat']
+    lin=max_item['alink']
     print(max_item)
-    return render_template('index.html',boxeop=boxeop,cat=cat,data=data,nom=nom,img=img,sub=sub,subc=subc,num=num,anap=anap,tecp=tecp,matp=matp,entrep=entrep)
+    return render_template('index.html',lin=lin,boxeop=boxeop,cat=cat,data=data,nom=nom,img=img,sub=sub,subc=subc,num=num,anap=anap,tecp=tecp,matp=matp,entrep=entrep)
 
 #Pagina Deportes
 data = cargar_datos()

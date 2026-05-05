@@ -12,6 +12,10 @@
 
      gtag('config', 'G-WPKQ9X6B2F');
     </script>
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='ico/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='ico/favicon-16x16.png') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='ico/favicon.ico') }}">
 
     <meta title="Tema" content="Boxeo">
     <title>
@@ -29,12 +33,12 @@
       <div class="enlaces">
         <a href="/boxeo/entrenamiento">Entrenamiento</a>
         <a href="/boxeo/tecnica">Tecnica</a>
-        <a href="/boxeo/material">Material</a>
+        <a href="/boxeo">Material</a>
         <a href="/boxeo/analisis">Analisis</a>
       </div>
     </header>
     <div class="grande">
-      <a href="{{ cat }}/{{ subc }}/{{ nom }}"><h1 class="tit">{{ nom }}</h1></a>
+      <a href="{{ cat }}/{{ subc }}/{{ lin }}"><h1 class="tit">{{ nom }}</h1></a>
       <img class="img-grande" src="{{ img }}" alt="">
     </div>
     <div class="linea">
@@ -84,7 +88,7 @@
     <div class="linea">
     </div>
     <h1 class="rec">Material</h1>
-    {% for i in matp[:3] %}
+    <!--{% for i in matp[:3] %}
       <div class="bar-new">
         <div class="bar-new-img">
           <img src="{{ data[i[0]]['imagen'] }}" alt="">
@@ -94,7 +98,8 @@
         </div>
       </div>
       <br><br>
-    {% endfor %}
+    {% endfor %}-->
+    <br><br><p class="rec">sin articulos</p><br><br>
     <div class="linea">
     </div>
     <h1 class="rec">Analisis</h1>
